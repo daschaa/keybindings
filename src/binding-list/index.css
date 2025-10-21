@@ -1,0 +1,35 @@
+ul {
+    padding: 0 1rem;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+ul:focus {
+    outline: 2px solid #99c;
+    outline-offset: 2px;
+}
+
+li {
+ display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+
+li.active span{
+    color: deepskyblue;
+}
+
+.binding-shortcut {
+    font-weight: 600;
+    min-width: 6rem;
+}
+
+.binding-description {
+    /*flex: 1;*/
+    opacity: 0.85;
+}

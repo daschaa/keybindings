@@ -1,0 +1,12 @@
+#binding-input {
+    width: 100%;
+    border: 0px;
+    height: 3rem;
+    font-size: 2rem;
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#binding-input:focus {
+    outline-width: 0;
+}

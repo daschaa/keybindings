@@ -1,0 +1,94 @@
+[
+  { "shortcut": "COMMAND + TAB", "description": "Switch application" },
+  { "shortcut": "COMMAND + `", "description": "Cycle windows of current app" },
+  { "shortcut": "COMMAND + Q", "description": "Quit application" },
+  { "shortcut": "COMMAND + W", "description": "Close current window or tab" },
+  { "shortcut": "COMMAND + SHIFT + W", "description": "Close all tabs" },
+  { "shortcut": "COMMAND + N", "description": "New window" },
+  { "shortcut": "COMMAND + T", "description": "New tab" },
+
+  { "shortcut": "COMMAND + C", "description": "Copy" },
+  { "shortcut": "COMMAND + X", "description": "Cut" },
+  { "shortcut": "COMMAND + V", "description": "Paste" },
+  { "shortcut": "COMMAND + SHIFT + V", "description": "Paste without formatting (supported apps)" },
+  { "shortcut": "COMMAND + D", "description": "Duplicate line / selection (IDE)" },
+  { "shortcut": "OPTION + BACKSPACE", "description": "Delete previous word" },
+  { "shortcut": "COMMAND + BACKSPACE", "description": "Delete to start of line" },
+  { "shortcut": "COMMAND + /", "description": "Toggle line comment (IDE)" },
+
+  { "shortcut": "OPTION + LEFT", "description": "Move cursor previous word" },
+  { "shortcut": "OPTION + RIGHT", "description": "Move cursor next word" },
+  { "shortcut": "COMMAND + LEFT", "description": "Move cursor to line start" },
+  { "shortcut": "COMMAND + RIGHT", "description": "Move cursor to line end" },
+  { "shortcut": "COMMAND + UP", "description": "Jump to file start" },
+  { "shortcut": "COMMAND + DOWN", "description": "Jump to file end" },
+
+  { "shortcut": "COMMAND + F", "description": "Find in file" },
+  { "shortcut": "COMMAND + OPTION + F", "description": "Replace in file" },
+  { "shortcut": "COMMAND + SHIFT + F", "description": "Find in project" },
+  { "shortcut": "COMMAND + SHIFT + R", "description": "Replace in project" },
+  { "shortcut": "COMMAND + P", "description": "Quick open file (VS Code)" },
+  { "shortcut": "COMMAND + SHIFT + O", "description": "Go to symbol in file" },
+  { "shortcut": "COMMAND + SHIFT + P", "description": "Command palette (VS Code)" },
+  { "shortcut": "COMMAND + E", "description": "Recent files (JetBrains)" },
+  { "shortcut": "COMMAND + SHIFT + E", "description": "Recent locations (JetBrains)" },
+
+  { "shortcut": "F12", "description": "Go to definition" },
+  { "shortcut": "OPTION + F12", "description": "Peek definition" },
+  { "shortcut": "COMMAND + B", "description": "Navigate to declaration (JetBrains)" },
+  { "shortcut": "F2", "description": "Rename symbol" },
+  { "shortcut": "COMMAND + OPTION + L", "description": "Format code (JetBrains)" },
+  { "shortcut": "OPTION + SHIFT + F", "description": "Format code (VS Code)" },
+  { "shortcut": "COMMAND + .", "description": "Quick fix / code actions" },
+
+  { "shortcut": "COMMAND + SHIFT + ENTER", "description": "Complete statement (JetBrains)" },
+  { "shortcut": "CONTROL + SPACE", "description": "Code completion" },
+  { "shortcut": "CONTROL + SHIFT + SPACE", "description": "Type completion (JetBrains)" },
+
+  { "shortcut": "COMMAND + K THEN COMMAND + S", "description": "Show keyboard shortcuts (VS Code)" },
+  { "shortcut": "COMMAND + K THEN COMMAND + F", "description": "Format selection (VS Code)" },
+
+  { "shortcut": "COMMAND + OPTION + LEFT", "description": "Navigate back (JetBrains)" },
+  { "shortcut": "COMMAND + OPTION + RIGHT", "description": "Navigate forward (JetBrains)" },
+
+  { "shortcut": "COMMAND + SHIFT + 4", "description": "Screenshot selection" },
+  { "shortcut": "COMMAND + CTRL + SHIFT + 4", "description": "Screenshot selection to clipboard" },
+  { "shortcut": "COMMAND + SHIFT + 5", "description": "Screenshot / recording options" },
+
+  { "shortcut": "COMMAND + OPTION + ESC", "description": "Force quit dialog" },
+
+  { "shortcut": "COMMAND + K", "description": "Toggle app visibility (custom)" },
+
+  { "shortcut": "F9", "description": "Toggle breakpoint (VS Code)" },
+  { "shortcut": "F5", "description": "Start / continue debug" },
+  { "shortcut": "F10", "description": "Step over" },
+  { "shortcut": "F11", "description": "Step into" },
+  { "shortcut": "SHIFT + F11", "description": "Step out" },
+
+  { "shortcut": "COMMAND + G", "description": "Find next" },
+  { "shortcut": "COMMAND + SHIFT + G", "description": "Find previous" },
+
+  { "shortcut": "COMMAND + SHIFT + L", "description": "Select all occurrences (VS Code)" },
+  { "shortcut": "COMMAND + D", "description": "Add next occurrence to selection (VS Code)" },
+  { "shortcut": "OPTION + CLICK", "description": "Add cursor" },
+  { "shortcut": "COMMAND + OPTION + UP", "description": "Add cursor above" },
+  { "shortcut": "COMMAND + OPTION + DOWN", "description": "Add cursor below" },
+
+  { "shortcut": "CONTROL + A", "description": "Move cursor to line start (terminal)" },
+  { "shortcut": "CONTROL + E", "description": "Move cursor to line end (terminal)" },
+  { "shortcut": "CONTROL + U", "description": "Delete to line start (terminal)" },
+  { "shortcut": "CONTROL + K", "description": "Delete to line end (terminal)" },
+  { "shortcut": "CONTROL + R", "description": "Search history (terminal)" },
+  { "shortcut": "CONTROL + L", "description": "Clear screen (terminal)" },
+  { "shortcut": "CONTROL + C", "description": "Cancel process (terminal)" },
+  { "shortcut": "CONTROL + D", "description": "EOF / exit shell" },
+
+  { "shortcut": "COMMAND + OPTION + K", "description": "Commit (JetBrains)" },
+  { "shortcut": "COMMAND + OPTION + SHIFT + K", "description": "Push (JetBrains)" },
+  { "shortcut": "COMMAND + SHIFT + K", "description": "Discard line / selection (VS Code)" },
+
+  { "shortcut": "COMMAND + OPTION + [", "description": "Fold code" },
+  { "shortcut": "COMMAND + OPTION + ]", "description": "Unfold code" },
+  { "shortcut": "COMMAND + SHIFT + [", "description": "Previous tab" },
+  { "shortcut": "COMMAND + SHIFT + ]", "description": "Next tab" }
+]

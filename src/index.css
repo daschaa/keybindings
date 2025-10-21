@@ -1,0 +1,19 @@
+:root {
+  --background-base: #1e1e2e;
+  --text: #cdd6f4;
+  --surface: #585b70;
+}
+html {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif;
+}
+
+* {
+  background: var(--background-base);
+  color: var(--text);
+}
+
+*::placeholder {
+  color: var(--surface);
+}
