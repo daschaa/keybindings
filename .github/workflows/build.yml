@@ -1,6 +1,6 @@
-name: Build/release
+name: release
 
-on: push
+on: release
 
 jobs:
   release:
