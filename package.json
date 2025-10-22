@@ -1,6 +1,6 @@
 {
   "name": "keybindings",
-  "productName": "Keybindings",
+  "productName": "keybindings",
   "version": "1.0.0-alpha.2",
   "description": "Little app to show your favorite keybindings",
   "main": ".webpack/main",
