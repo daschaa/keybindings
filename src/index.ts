@@ -84,3 +84,11 @@ app.on('will-quit', () => {
   // Unregister all shortcuts.
   globalShortcut.unregisterAll()
 })
+
+app.setLoginItemSettings({
+  openAtLogin: true,
+  name: "Keybindings",
+  enabled: true,
+  type: "mainAppService",
+  serviceName: "Keybindings",
+})
