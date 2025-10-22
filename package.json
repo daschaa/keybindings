@@ -11,7 +11,7 @@
     "publish": "electron-forge publish",
     "lint": "eslint --ext .ts,.tsx ."
   },
-  "keywords": [],
+  "keywords": ["shortcuts", "mac", "keybindings", "linux", "windows"],
   "author": {
     "name": "Joshua Weber",
     "email": "josh@joshuaw.de"
