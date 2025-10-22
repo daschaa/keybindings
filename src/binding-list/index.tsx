@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 
-interface BindingItem {
+export interface BindingItem {
     shortcut: string
     description: string
 }
