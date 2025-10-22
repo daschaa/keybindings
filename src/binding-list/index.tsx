@@ -28,7 +28,7 @@ const BindingList = ({
                         {item.shortcut}
                     </span>
                     <span className={'binding-description'}>
-                        → {item.description}
+                        &#8594; {item.description}
                     </span>
                 </li>
             ))}
