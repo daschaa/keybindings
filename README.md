@@ -4,6 +4,19 @@ This little utility app is build to show your (favorite) keybindings in a small,
 and search for the keybinding/shortcut you are looking for. With `Command + K` you can toggle the window, so that
 you have an easy shortcut to quickly search.
 
+<h2>Installation</h2>
+
+**Mac**
+
+```bash
+brew tap daschaa/homebrew-tap
+brew install daschaa/tap/keybindings
+```
+
+**Other**
+
+Download the latest release from the [releases](https://github.com/daschaa/keybindings/releases/latest)
+
 <h2>Customize Keybindings</h2>
 
 The app loads with an example set of keybindings. To customize it and set your own keybindings you can edit the file
