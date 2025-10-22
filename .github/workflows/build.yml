@@ -1,5 +1,8 @@
 name: release
-on: release
+on:
+  release:
+  workflow_dispatch:
+
 permissions:
   contents: write
 jobs:
@@ -10,7 +13,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+        os: [macos-latest, ubuntu-latest, windows-latest, macos-15-intel]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v5
