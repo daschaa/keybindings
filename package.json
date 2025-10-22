@@ -1,8 +1,8 @@
 {
   "name": "keybindings",
-  "productName": "keybindings",
+  "productName": "Keybindings",
   "version": "1.0.0-alpha",
-  "description": "My Electron application description",
+  "description": "Little app to show your favorite keybindings",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
