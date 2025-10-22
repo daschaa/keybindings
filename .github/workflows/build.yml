@@ -1,23 +1,21 @@
 name: release
-
 on: release
 permissions:
   contents: write
-
 jobs:
   release:
+    name: "Create new release"
     runs-on: ${{ matrix.os }}
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
-
     steps:
-      - name: Check out Git repository
+      - name: Checkout repo
         uses: actions/checkout@v5
 
-      - name: Install Node.js, NPM and Yarn
+      - name: Setup node
         uses: actions/setup-node@v6
         with:
           node-version: 22
