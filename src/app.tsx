@@ -26,6 +26,8 @@ const App = () => {
         if (filteredBinding != '' && shortcuts.length > 0) {
             const items = fuzzySearch(shortcuts, filteredBinding);
             setFilteredItems(items)
+        } else {
+            setFilteredItems(undefined)
         }
     }, [shortcuts, filteredBinding]);
 
