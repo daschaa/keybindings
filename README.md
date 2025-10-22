@@ -23,6 +23,15 @@ Like so:
 ]
 ```
 
+<h2>Run on Mac</h2>
+
+The app is not signed and need to be taken out of quarantine in order to run the app. You can do that with the
+following command:
+
+```bash
+xattr -d com.apple.quarantine keybindings.app
+```
+
 <h2>Contribute</h2>
 
 Any contribution is welcome. New features are not likely to be integrated, because I want to keep it simple and clean.
