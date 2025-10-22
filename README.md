@@ -1,5 +1,4 @@
 <h1 align="center">Keybindings</h1>
-<hr/>
 
 This little utility app is build to show your (favorite) keybindings in a small, searchable window. Just start the app
 and search for the keybinding/shortcut you are looking for. With `Command + K` you can toggle the window, so that
