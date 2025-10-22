@@ -13,8 +13,8 @@ you have an easy shortcut to quickly search.
 **Mac**
 
 ```bash
-brew tap daschaa/homebrew-tap
-brew install daschaa/tap/keybindings
+brew tap daschaa/tap
+brew install --cask keybindings
 ```
 
 **Other**
